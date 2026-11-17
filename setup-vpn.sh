@@ -54,4 +54,6 @@ systemctl start openvpn-client@geco
 
 echo "✅ OpenVPN-клиент успешно настроен и запущен!"
 
+sleep 3
+
 ip addr show tungetit
